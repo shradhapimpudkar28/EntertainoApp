@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen5sp">5sp</dimen>
+    <dimen name="dimen10sp">10sp</dimen>
+    <dimen name="dimen15sp">15sp</dimen>
+    <dimen name="dimen18sp">18sp</dimen>
+    <dimen name="dimen20sp">20sp</dimen>
+    <dimen name="dimen30sp">30sp</dimen>
+    <dimen name="dimen40sp">40sp</dimen>
+    <dimen name="dimen50sp">50sp</dimen>
+    <dimen name="dimen100sp">100sp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="horizontal_margin">10dp</dimen>
+    <dimen name="button_padding">16dp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+    <dimen name="question_horizontal_margin">32dp</dimen>
+    <dimen name="question_vertical_margin">8dp</dimen>
+    <dimen name="answer_text_size">18sp</dimen>
+    <dimen name="question_text_size">30sp</dimen>
+    <dimen name="image_header_height">180dp</dimen>
+</resources>

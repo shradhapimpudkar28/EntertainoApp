@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.TitleFragment">
+
+    <RelativeLayout
+        android:id="@+id/titleConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/titleImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_header_height"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_video"
+            tools:ignore="VectorDrawableCompat" />
+
+        <Button
+            android:id="@+id/splash_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleImage"
+            android:layout_marginTop="@dimen/dimen15sp"
+            android:layout_centerInParent="true"
+            android:background="@color/colorTransBlueTwenty"
+            android:paddingStart="@dimen/button_padding"
+            android:paddingEnd="@dimen/button_padding"
+            android:text="@string/Go"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</layout>

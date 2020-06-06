@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#6200EE</color>-->
+    <color name="colorPrimary">#03DAC5</color>
+<!--    <color name="colorPrimaryDark">#3700B3</color>-->
+    <color name="colorPrimaryDark">#03DAC5</color>
+    <color name="colorAccent">#03DAC5</color>
+<!--    <color name="colorAccent">#03DAC5</color>-->
+
+    <color name="colorLightVoilet">#4D3700B3</color>
+    <color name="colorTransDarkBlue">#2C3700B3</color>
+    <color name="colorTransBlue">#2C03DAC5</color>
+    <color name="colorTranssBlue">#4D03DAC5</color>
+    <color name="colorTransBlueTwenty">#6603DAC5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransWhite">#2CFFFFFF</color>
+    <color name="colorLightGray">#FAFAFA</color>
+    <color name="colorDarkGray">#555555</color>
+</resources>
