@@ -1,19 +1,23 @@
 package com.shradha.entertaino.moviescreens.movies
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.shradha.entertaino.R
 import com.shradha.entertaino.data.response.MovieItem
+import com.shradha.entertaino.ui.home.MainActivity
 import com.shradha.entertaino.utils.ApiException
 import com.shradha.entertaino.utils.NoInternetException
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.movies_fragment.*
 import org.kodein.di.Kodein
 import org.kodein.di.KodeinAware
@@ -31,6 +35,8 @@ class MoviesFragment : Fragment(),
     ): View? {
         val view = inflater.inflate(R.layout.movies_fragment, container, false)
         (activity as AppCompatActivity?)!!.supportActionBar!!.show()
+        (activity as MainActivity)!!.drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED);
+
         return view
     }
 

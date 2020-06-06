@@ -26,7 +26,7 @@ class LoginFragment : Fragment() {
         val binding: LoginFragmentBinding = DataBindingUtil.inflate(
             inflater, R.layout.login_fragment, container, false
         )
-        setHasOptionsMenu(true)
+       // setHasOptionsMenu(true)
         (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
         (activity as MainActivity)!!.drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
 
@@ -34,7 +34,7 @@ class LoginFragment : Fragment() {
 
         // Navigates to Movies screen when Login button is pressed
         binding.loginButton.setOnClickListener { view: View ->
-            val Username = binding.etUsername.text.toString()
+           /* val Username = binding.etUsername.text.toString()
             val Password = binding.etPassword.text.toString()
             if (Username.isEmpty() && Password.isEmpty()) {
                 binding.etUsername.error = "Please enter Username it can't be empty"
@@ -42,7 +42,9 @@ class LoginFragment : Fragment() {
             } else {
                 val action = LoginFragmentDirections.actionLoginToMovielist()
                 findNavController().navigate(action)
-            }
+            }*/
+            val action = LoginFragmentDirections.actionLoginToMovielist()
+            findNavController().navigate(action)
         }
         // Navigates to Register screen when REGISTER button is pressed
         binding.registerButton.setOnClickListener { view: View ->
